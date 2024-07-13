@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "vaiko"
+version = "0.1.0"
+description = "Words to keystrokes"
+authors = ["qwertyleniopa <qwertyleniopa@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+vosk = "^0.3.45"
+sounddevice = "^0.4.6"
+PyYAML = "^6.0"
+PyQt6 = "^6.5.1"
+pynput = "^1.7.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
